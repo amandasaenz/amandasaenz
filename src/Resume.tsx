@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { info, work } from './data/ResumeData';
 import name from './images/name1.svg';
+import ScrollToTop from './ScrollToTop';
 
 const theme = {
   primary: '#3E9A9E',
@@ -63,6 +64,7 @@ const Resume: React.FC = () => {
 
   return (
     <Container>
+      <ScrollToTop />
       <img alt='' src={name} style={{ padding: '32px 0 0 0' }} />
 
       <div style={{ display: 'grid', gap: '24px' }}>

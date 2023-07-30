@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { ArtProps } from './data/ProjectData';
 import styled from '@emotion/styled';
 import Carousel from './Carousel';
+import ScrollToTop from './ScrollToTop';
 
 const theme = {
   primary: '#3E9A9E',
@@ -13,6 +14,7 @@ const Project: React.FC<ArtProps> = ({ ...props }) => {
 
   return (
     <StyledComponents>
+      <ScrollToTop />
       <div style={{ display: 'grid', gap: '16px' }}>
         <Header>{props.title}</Header>
         <Carousel items={imgArray} />
