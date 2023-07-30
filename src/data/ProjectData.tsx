@@ -1,7 +1,9 @@
+import styled from '@emotion/styled';
+
+// -------- S U P E R  C R A S H  B R O S --------
 import crash from '../images/crash.jpg';
 import crash2 from '../images/crash2.jpg';
 import crash3 from '../images/crash3.jpg';
-import kaiju from '../images/kaiju.jpg';
 
 // -------- G A R G O Y L E S --------
 import demona from '../images/gargoyles/demona.png';
@@ -23,7 +25,6 @@ import od from '../images/overdrive/od.png';
 
 import buddies from '../images/buddies.png';
 import coke from '../images/coke.jpg';
-import styled from '@emotion/styled';
 
 interface DataProps {
   art: ArtProps[];

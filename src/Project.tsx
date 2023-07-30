@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { ArtProps } from './data/ProjectData';
 import styled from '@emotion/styled';
 import Carousel from './Carousel';

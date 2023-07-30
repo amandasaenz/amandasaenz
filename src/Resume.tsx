@@ -63,7 +63,7 @@ const Resume: React.FC = () => {
 
   return (
     <Container>
-      <img src={name} style={{ padding: '32px 0 0 0' }} />
+      <img alt='' src={name} style={{ padding: '32px 0 0 0' }} />
 
       <div style={{ display: 'grid', gap: '24px' }}>
         <Header># contact</Header>
