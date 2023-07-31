@@ -8,6 +8,7 @@ const UX: React.FC = () => {
     <Rectangle
       key={x.id}
       to={x.href}
+      target='_blank'
       style={{ backgroundImage: `url(${spidey})` }}
     />
   ));
